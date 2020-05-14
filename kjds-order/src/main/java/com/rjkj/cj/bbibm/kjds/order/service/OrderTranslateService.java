@@ -19,7 +19,7 @@ public interface OrderTranslateService {
     R OrderTranslate(OrderTranslateBo orderTranslateBo);
 
     /**
-     * 订单同步功能
+     * 订单同步功能循环调用子功能
      * @return
      */
     R OrderTranslates();
